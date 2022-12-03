@@ -1,0 +1,25 @@
+
+
+table tr:nth-child(even) {
+    background-color: rgb(242, 242, 240);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 20px 20px 0;
+}
+
+table tr th {
+    border-bottom: 3px solid black;
+    text-align: left;
+    
+}
+
+table tr td {
+    border-bottom: 1px solid #dde2e4
+}
+
+table tr td, table tr th {
+    padding: 15px 0;
+}
