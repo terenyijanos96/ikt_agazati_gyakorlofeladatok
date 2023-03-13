@@ -1,0 +1,32 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px
+}
+
+main article {
+    display: grid;
+    grid-template-rows: min-content min-content min-content;
+}
+
+main .article, main .article .article-image-and-text, main .article h2 {
+    border: 1px solid #dde2e4;
+    border-collapse: collapse;
+}
+
+main .article {
+    height: min-content;
+    padding-bottom: 30px;
+    background-color: #f7f7f4;
+}
+
+main .article h2 {
+    padding: 15px 20px;
+    font-size: 1.1em;
+    padding: 10px 20px;
+}
+
+main .article .article-image-and-text {
+    padding: 30px;
+    background-color: #fff;
+}
